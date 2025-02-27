@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "liquid-task",
+    "slug": "liquid-task",
+    "version": "1.0.0",
+    "newArchEnabled": true,
+    "orientation": "portrait",
+    "icon": "./src/assets/liquid-logo.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./src/assets/liquid-logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#85a5e67b"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./src/assets/liquid-logo.png",
+        "backgroundColor": "#85a5e67b"
+      }
+    },
+    "web": {},
+    "plugins": [
+      "expo-asset",
+      "expo-font"
+    ]
+  }
+}
